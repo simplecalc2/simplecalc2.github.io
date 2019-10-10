@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        #ok {
+            margin: 1.2em 0 1.2em;
+        }
+        .container{
+            margin-top: 2em;
+        }
+    </style>
+    <title>Calculadora!</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <div class="alert alert-light" role="alert">
+            * O cálculo para moto está relacionado com a quantidade de entregas diárias; do carro, a quantidade de entregas mensais.
+        </div>
+        <br>
+        <form>
+            <div class="form-group">
+                <div class="row">
+                        <div class="col-md-3">
+                            <label for="veicleType">Tipo de veiculo</label>
+                            <select class="form-control" id="veicleType">
+                                <option>Moto</option>
+                                <option>Carro</option>
+                            </select>
+                        </div>
+                    <div class="col-md-3">
+                        <label for="numerberOfDrivers">Numero de motoristas indicados</label>
+                        <select class="form-control" id="numerberOfDrivers">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+                            <option>35</option>
+                            <option>36</option>
+                            <option>37</option>
+                            <option>38</option>
+                            <option>39</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                            <option>45</option>
+                            <option>46</option>
+                            <option>47</option>
+                            <option>48</option>
+                            <option>49</option>
+                            <option>50</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="numberOfTravels">Número de entregas</label>
+                            <select class="form-control" id="numberOfTravels">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                                <option>32</option>
+                                <option>33</option>
+                                <option>34</option>
+                                <option>35</option>
+                                <option>36</option>
+                                <option>37</option>
+                                <option>38</option>
+                                <option>39</option>
+                                <option>40</option>
+                                <option>41</option>
+                                <option>42</option>
+                                <option>43</option>
+                                <option>44</option>
+                                <option>45</option>
+                                <option>46</option>
+                                <option>47</option>
+                                <option>48</option>
+                                <option>49</option>
+                                <option>50</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3" id="hide">
+                        <div class="form-group">
+                            <label for="daysWorked">Dias trabalhados</label>
+                            <select class="form-control" id="daysWorked">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="ok">Ver total</button>
+        </form>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">R$</span>
+                    </div>
+                    <input type="text" id="total" class="form-control" aria-label="Valor (Real)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            function baseValue() {
+                var numberOfTravels = parseInt($('#numerberOfDrivers option:selected').val());
+                var veicleType = $('#veicleType option:selected').val();
+                switch (true) {
+                    case (numberOfTravels < 6):
+                        return veicleType == "Carro" ? 0.25 : 0.05;
+                        break;
+                    case (numberOfTravels < 11):
+                        return veicleType == "Carro" ? 0.5 : 0.1;
+                        break;
+                    case (numberOfTravels < 21):
+                        return veicleType == "Carro" ? 1 : 0.15;
+                        break;
+                    case (numberOfTravels < 51):
+                        return veicleType == "Carro" ? 1.5 : 0.25;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+            function daysWorked() {
+                var veicleType = $('#veicleType option:selected').val();
+                days = parseInt($('#daysWorked option:selected').val());
+                return veicleType == "Moto" ? days  : 1;
+            }
+            function calculateTotal(){
+                console.log(baseValue());
+                return (baseValue() * parseInt($('#numerberOfDrivers option:selected').val()) * parseInt($('#numberOfTravels option:selected').val()) * daysWorked()).toFixed(2);
+            }
+
+            $('#veicleType').change(function() {
+                if($('#veicleType').val() == "Carro"){
+                    $('#daysWorked').val('1');
+                    $('#hide').hide();
+                }else{
+                    $('#hide').show();
+                }
+            });
+
+            $("form").submit(function(e){
+                e.preventDefault(e);
+                $("#total").val(calculateTotal());
+            });
+        });
+    </script>    
+</body>
+
+</html>
